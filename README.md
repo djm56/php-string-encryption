@@ -12,8 +12,8 @@ Genrate random password.
 ```php
 <?php
 
-use RandomPassword\Password;
+use StringEncryption\Encryption;
 
-$password = new Password(10);
-echo $password->generate();
+$encryptedtext = Encryption::encrypt('test string');
+$decryptedtext = Encryption::decrypt('encrypted string');
 ```
