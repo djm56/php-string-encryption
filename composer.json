@@ -1,7 +1,7 @@
 {
     "name": "djm56/php-string-encryption",
     "description": "Encrypt and Decrypt a String",
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Donovan Maidens",
