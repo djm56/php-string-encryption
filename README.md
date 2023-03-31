@@ -7,11 +7,13 @@ This repo is still in development
 
 ## Installation
 This project is using composer.
+
 ```
 $ composer require djm56/php-string-encrytion
 ```
 ## Usage
 Define constants the encrytion_key please change to something unique, the encrytion_type can stay the same.
+
 ```php
 define('ENCRYPTION_KEY', 'abcdefghij1234');
 define('ENCRYPTION_TYPE', 'AES-128-CBC');
