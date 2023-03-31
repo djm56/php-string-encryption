@@ -23,14 +23,14 @@ class Encryption {
 	 *
 	 * @var string
 	 */
-	private static $encrytion_key = 'gdWEGLSzcdyXeNyLSakqsypt';
+	private static $encrytion_key = ENCRYPTION_KEY;
 
 	/**
 	 * The encrytyption type used to encrypt strings.
 	 *
 	 * @var string
 	 */
-	private static $encrytion_type = 'AES-128-CBC';
+	private static $encrytion_type = ENCRYPTION_TYPE;
 
 	/**
 	 * A wrapper method to protect base64 encode.
